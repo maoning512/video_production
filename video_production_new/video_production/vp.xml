@@ -1,0 +1,13 @@
+<uwsgi>
+<chdir>/root/workspace/video_production/video_production/</chdir>
+<pythonpath>..</pythonpath>
+<module>wsgi</module>
+<socket>0.0.0.0:8001</socket>     
+<master/>
+<processes>20</processes>
+<memory-report/>
+<daemonize>/root/workspace/log/vp.uwsgi.log</daemonize>
+<max-requests>50</max-requests>
+<harakiri>60</harakiri>
+<touch-reload>VERSION</touch-reload>
+</uwsgi>

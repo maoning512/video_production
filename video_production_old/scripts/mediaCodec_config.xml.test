@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<root>
+  <channel name="movie">
+    <version id="0">
+      <aaclevel>aac_he</aaclevel>
+      <ac>2</ac>
+      <ar>44100</ar>
+      <ab>48k</ab>
+      <height>320</height>
+      <vb>400k</vb>
+      <fps>25</fps>
+      <width></width>
+      <x264opt>min-keyint=25:level=40:ref=1:bframes=1:b-adapt=0:b-pyramid=strict:rc-lookahead=40:vbv-maxrate=800:vbv-bufsize=800:no-psy:deblock=-2,-2:8x8dct=0:partitions=all:direct=auto:weightp=0:me=dia:merange=8:subme=2:aq-mode=0:trellis=2:fast-pskip=1:dct-decimate=0:qpmax=51</x264opt>
+    </version>
+    <version id="1">
+      <aaclevel>aac_he</aaclevel>
+      <ac>2</ac>
+      <ar>44100</ar>
+      <ab>64k</ab>
+      <height>480</height>
+      <vb>650k</vb>
+      <fps>25</fps>
+      <width></width>
+      <x264opt>min-keyint=25:level=40:ref=1:bframes=1:b-adapt=0:b-pyramid=strict:rc-lookahead=40:vbv-maxrate=1300:vbv-bufsize=1300:no-psy:deblock=-2,-2:8x8dct=0:partitions=all:direct=auto:weightp=0:me=dia:merange=8:subme=2:aq-mode=2:trellis=2:fast-pskip=1:dct-decimate=0:qpmax=51</x264opt>
+    </version>
+    <version id="2">
+      <aaclevel>aac_low</aaclevel>
+      <ac>2</ac>
+      <ar>44100</ar>
+      <ab>128k</ab>
+      <height>720</height>
+      <vb>1300k</vb>
+      <fps>25</fps>
+      <width></width>
+      <x264opt>min-keyint=25:level=40:ref=1:bframes=1:b-adapt=0:b-pyramid=strict:rc-lookahead=40:vbv-maxrate=2600:vbv-bufsize=2600:no-psy:deblock=-2,-2:8x8dct=0:partitions=all:direct=auto:weightp=0:me=dia:merange=8:subme=2:aq-mode=2:trellis=2:fast-pskip=1:dct-decimate=0:qpmax=51</x264opt>
+    </version>
+  </channel>
+</root>

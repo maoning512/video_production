@@ -1,0 +1,5 @@
+[2014-08-10 16:32:49]: INFO:  python mediaCodec_scan_param.py -i /opt/shipin_net/videos/20140810/test_5s.mp4
+
+[2014-08-10 16:32:49]: INFO:  run cmd:/usr/local/mediaCodec/ffprobe -i /opt/shipin_net/videos/20140810/test_5s.mp4 -show_streams -show_crop_detect
+[2014-08-10 16:32:50]: INFO:  get video info:
+{'data': {'Video': {'0': {'avg_frame_rate': 23.975999999999999, 'no': 0, 'max_resolution': '720P', 'height': 1080, 'width': 1920, 'bit_rate': 6850000, 'display_aspect_ratio': '16:9', 'codec_name': 'mpeg4', 'duration': '5000', 'v_crop': '0:0:0:0'}}, 'file_size': 4380450, 'duration': '5020', 'input': '/opt/shipin_net/videos/20140810/test_5s.mp4', 'Audio': {'0': {'language': 'und', 'no': 0, 'channels': 2, 'bit_rate': 143000, 'sample_rate': 44100, 'codec_name': 'aac', 'duration': '5010'}}, 'bitrate': 6986000}, 'error_code': 0, 'error_msg': 'OK!'} 
